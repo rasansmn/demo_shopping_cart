@@ -1,0 +1,83 @@
+/*
+"Demo Shopping Cart" is a non comprehensive e-commerce website developed for academic purposes only. This is just a demonstration of a simple shopping cart and it may contain bugs and errors.
+
+Design and development by Rasan Samarasinghe. (c) 2015 All Rights Reserved.
+*/
+.page .header {
+	background-color: #3399CC;
+	height: 125px;
+	width: 900px;
+	text-align: right;
+}
+.page .navigation {
+	background-color: #33CCFF;
+	height: 600px;
+	float: left;
+	width: 200px;
+}
+.page .contents {
+	float: left;
+	min-height: 580px;
+	width: 680px;
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+.navigation a:link, .navigation a:visited {
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	background-color: #6699CC;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5px;
+	width: 120px;
+	font-weight: bold;
+	margin-top: 1px;
+}
+.navigation a:active, .navigation a:hover {
+	background-color: #3399CC;
+}
+.page {
+	margin: auto;
+	width: 900px;
+}
+.page .footer {
+	background-color: #3399CC;
+	clear: both;
+	width: 900px;
+	height: 40px;
+	text-align: center;
+}
+body {
+	background-color: #999999;
+}
+#titletext {
+	color: #FFFFFF;
+	margin: auto;
+	position: relative;
+	top: 40px;
+	right: 10px;
+}
+#footertext {
+	position: relative;
+	top: 10px;
+}
+.navigation ul {
+	list-style-type: none;
+}
+.page .wrapper {
+	background-color: #CCCC99;
+	width: 900px;
+	float: left;
+}
+.contents table, .contents th, .contents td {
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	color: #333333;
+}
